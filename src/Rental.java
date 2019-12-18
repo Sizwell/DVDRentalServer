@@ -68,10 +68,7 @@ public class Rental   implements Serializable
     {
         return this.dateReturned;        
     }
-//    public double getPricePerDay()
-//    {
-//        return this.pricePerDay;        
-//    }
+
     public void setRentalNumber(int rn)
     {
         this.rentalNumber = rn;        
@@ -80,10 +77,7 @@ public class Rental   implements Serializable
     {
         this.dateRented = rentD;
     }
-//    public void setPricePerDay(double pricePerDay)
-//    {
-//        this.pricePerDay = pricePerDay;
-//    }
+
     public void setDateReturned(String ret)
     {
         this.dateReturned = ret;
@@ -146,6 +140,4 @@ public class Rental   implements Serializable
         return "Rental#:" + rentalNumber + "  Date Rented:" + dateRented + "   Date Returned:" + dateReturned + "\nPenalty cost per day:R" + PENALTY_COST_PER_DAY + "  Total Penalty Cost:R" +
             totalPenaltyCost + "  Customer#:" + custNumber + "  Movie#:" + dvdNumber +"\nNo of Days overdue:" + numberOfDaysOverdue()+"\n";
     }
-
-   
 }

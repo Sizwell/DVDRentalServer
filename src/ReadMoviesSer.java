@@ -44,7 +44,6 @@ public class ReadMoviesSer
         System.out.println("Serialized movie files have been read...");
         System.out.println(dvd.toString());
 
-
     }
     public ArrayList<DVD> getDvd()
     {
